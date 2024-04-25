@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.top{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color:hsl(193, 100%, 96%);
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+    margin-bottom:70px;
+    padding-bottom:30px ;
+}
+
+.container2{
+    padding:0;
+    margin-bottom:250px;
+}
+
+.container3{
+    padding:0;
+    margin-bottom:0;
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:32px 0;
+}
+
+.container .nav .login{
+    background-color:white;
+    padding:10px 55px;
+    border-radius: 50px;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.container .nav .login:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.top-content{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap:20px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+  .login2{
+    border-radius: 50px;
+    padding:10px 55px; 
+    cursor:pointer;
+    background-color:hsl(322, 100%, 66%);
+    color:white;
+    transition:0.2s ease-in-out;
+
+}
+
+.login2:hover{
+    background-color:hsla(322, 100%, 66%, 0.808);
+    transition:0.2s ease-in-out;
+}
+
+
+.left{
+    max-width:45%;
+}
+
+.left h1{
+    font-weight: 600; 
+    font-size:41px;
+}
+
+.left p{
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.right{
+    max-width:100%;
+}
+
+.right img{
+    width:100%;
+}
+
+
+.flex-box-container{
+    padding:20px 100px ;
+    /* border:2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:20px;
+    margin-bottom:40px;
+    gap:100px;
+}
+
+.flex-left{
+    max-width:100%;
+}
+
+.flex-left h1{
+    font-size:xx-large;
+    
+}
+
+.flex-left p{
+    margin:10px 0;
+    font-size:medium;
+    color:hsl(208, 11%, 55%);
+    /* font-size:14px; */
+}
+
+.flex-right{
+max-width:100%;
+}
+
+.flex-right img{
+    width:100%;
+}
+
+
+.bottom{
+    background-color:hsl(192, 100%, 9%);
+    color:white;
+    padding-bottom:50px;
+}
+
+.inner-container{
+    width:500px;
+    margin:0 auto;
+ 
+}
+
+.box{
+    color:black;
+text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:40px;
+    border-radius:20px;
+   z-index:40;
+    position:relative;
+    top:-150px;
+    background-color:white;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.box .login2{
+    
+    display:inline-block;
+    margin:20px 0;
+    padding:20px 60px;
+}
+
+
+.flex{
+    max-width:90%;
+display:flex;
+/* align-items:center; */
+justify-content: space-between;
+padding:40px 0;
+
+}
+
+.top2{
+    margin-top: -50px;
+}
+
+.flex ul{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    max-width:25%;
+    list-style-type: none;
+    align-items:flex-start;
+    font-size:18px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.flex ul li p{
+    color:hsl(208, 11%, 55%);
+}
+
+/* .flex .two{
+    
+} */
+
+.flex .one{
+    display:flex;
+    gap:20px;
+}
+
+.icons{
+    max-width:25%;
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.icons i{
+   
+    border:2px solid white;
+    padding:15px;
+    font-size:14px;
+    border-radius: 50%;
+    cursor:pointer;
+    transition:0.2s ease-in-out;
+}
+
+.icons i:hover{
+    color:hsl(322, 100%, 66%);
+    transition:0.2s ease-in-out;
+}
+
+.bar{
+    transition: 0.2s ease-in-out;
+}
+
+.bar:hover{
+    border-bottom: 2px solid white;
+    transition:0.2s ease-in-out;
+    cursor:pointer;
+}
+
+.copyright{
+    display:flex;
+    justify-content: flex-end;
+    color:hsl(208, 11%, 55%)
+}
+
+
+@media only screen and (min-width:750px) and (max-width:900px){
+    .flex{
+        max-width:100%;
+    }
+    .flex-box-container{
+        padding:30px 60px;
+    }
+    
+
+}
+
+
+@media only screen and (min-width:375px) and (max-width:500px){
+    .top{
+        background-image: url("images/bg-hero-mobile.svg"); 
+    }
+    .top-content{
+        flex-direction: column;
+        text-align:center;
+        gap:50px;
+    }
+    .nav .company-logo{
+        width:120px;
+    }
+    img{
+        width:100%;
+    }
+    .left{
+        max-width:100%;
+    }
+    .flex{
+        flex-direction:column;
+        max-width:100%;
+    }
+    .container .nav .login{
+        font-size:14px;
+        padding:8px 20px;
+    }
+    .flex-box-container{
+        padding: 30px 45px;
+    }
+    .direction{
+        flex-direction: column-reverse;
+    }
+    .flex ul{
+        max-width:100%;
+    }
+    .flex  .two{
+        margin-bottom:30px;
+    }
+    .flex ul{
+         margin-bottom:20px;
+    }
+    .icons{
+        max-width:100%;
+        justify-content: center;
+    }
+    .copyright{
+        display:flex;
+        justify-content: center;
+       }
+       .box{
+        position:relative;
+        top:-80px;
+        padding:20px;
+       }
+       
+       .container2{
+        margin-bottom:35%;
+    }
+    .top2 {
+        width:200px;
+    }
+    img{
+        width:100%;
+    }
+    .inner-container{
+        width:330px;
+        }
+        .inner-container h1{
+            font-size:16px;
+        }
+        .inner-container .login2{
+            padding:10px 20px;
+            font-size:12px;
+        }
+        .box{
+            padding:20px  ;
+        }
+}
+
+
+@media only screen and (max-width:375px){
+
+    .inner-container{
+        width:280px;
+        }
+        .inner-container h1{
+            font-size:14px;
+        }
+        .inner-container .login2{
+            padding:10px 20px;
+            font-size:12px;
+        }
+        .box{
+            padding:10px ;
+        }
+        .top{
+            background-image: url("images/bg-hero-mobile.svg"); 
+        }
+        .top-content{
+            flex-direction: column;
+            text-align:center;
+            gap:50px;
+        }
+        .nav .company-logo{
+            width:120px;
+        }
+        img{
+            width:100%;
+        }
+        .left{
+            max-width:100%;
+        }
+        .flex{
+            flex-direction:column;
+            max-width:100%;
+        }
+        .container .nav .login{
+            font-size:14px;
+            padding:8px 20px;
+        }
+        .flex-box-container{
+            padding: 30px 45px;
+        }
+        .direction{
+            flex-direction: column-reverse;
+        }
+        .flex ul{
+            max-width:100%;
+        }
+        .flex  .two{
+            margin-bottom:30px;
+        }
+        .flex ul{
+             margin-bottom:20px;
+        }
+        .icons{
+            max-width:100%;
+            justify-content: center;
+        }
+        .copyright{
+            display:flex;
+            justify-content: center;
+           }
+           .box{
+            position:relative;
+            top:-80px;
+            padding:20px;
+           }
+           
+           .container2{
+            margin-bottom:40%;
+        }
+        .top2 {
+            width:200px;
+        }
+        img{
+            width:100%;
+        }
+        .top2{
+            margin-top: 0px;
+        }
+}
+
+
+@media only screen and (min-width:500px) and (max-width:750px){
+    .top{
+        background-image: url("images/bg-hero-mobile.svg"); 
+    }
+    .top-content{
+        flex-direction: column;
+        text-align:center;
+        gap:50px;
+    }
+    .container2{
+       
+        margin-bottom:130px;
+    }
+    .nav .company-logo{
+        width:120px;
+    }
+    img{
+        width:100%;
+    }
+    .left{
+        max-width:100%;
+    }
+    .flex{
+        flex-direction:column;
+        max-width:100%;
+    }
+    .container .nav .login{
+        font-size:14px;
+        padding:8px 20px;
+    }
+    .flex-box-container{
+        padding: 30px 45px;
+    }
+    .direction{
+        flex-direction: column-reverse;
+    }
+    .flex ul{
+        max-width:100%;
+    }
+    .flex  .two{
+        margin-bottom:30px;
+    }
+    .flex ul{
+         margin-bottom:20px;
+    }
+    .icons{
+        max-width:100%;
+        justify-content: center;
+    }
+    .copyright{
+        display:flex;
+        justify-content: center;
+       }
+       .box{
+        position:relative;
+        top:-80px;
+        padding:20px;
+       }
+    .top2 {
+        width:200px;
+    }
+    img{
+        width:100%;
+    }
+    .inner-container{
+        width:330px;
+        }
+        .inner-container h1{
+            font-size:16px;
+        }
+        .inner-container .login2{
+            padding:10px 20px;
+            font-size:12px;
+        }
+        .box{
+            padding:20px  ;
+        }
+}
